@@ -20,25 +20,28 @@ function Rightbar() {
               <Avatar alt="Trevor Henderson" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ0SG6XkJuNPT6IsigjEKYme8vt9DpKt5W0VQj1Wzwg3OsVHgQRvdsaJVAFI1ZIvMNoV4&usqp=CAU"/>
             </AvatarGroup>
             <Typography variant='h6' fontWeight={'100'}>Latest Photos</Typography>
-            <ImageList cols={3} rowHeight={100} gap={'5px'} sx={{height:'200px', width:'450px'}}>
+            <ImageList 
+              cols={3} 
+              rowHeight={150} 
+              gap={5} 
+              sx={{ maxHeight: 200, width: '100%' }}
+            >
               <ImageListItem>
                 <img 
-                  src='https://i.pinimg.com/236x/7c/7f/cb/7c7fcb47e65fec252042d36326030554.jpg'
+                  src="https://i.pinimg.com/236x/7c/7f/cb/7c7fcb47e65fec252042d36326030554.jpg" 
+                  alt="Stylish girl photo 1"
                 />
               </ImageListItem>
               <ImageListItem>
                 <img 
-                  src='https://e1.pxfuel.com/desktop-wallpaper/243/460/desktop-wallpaper-new-hijab-fashion-hijab-hijab-thumbnail.jpg'
-                />
-              </ImageListItem>
-              <ImageListItem>
-                <img 
-                  src='https://photosnow.net/wp-content/uploads/2024/04/stylish-hijab-girl-dp.jpg'
+                  src="https://preview.redd.it/newbie-hijabi-guidance-v0-f3i38b9tkehd1.jpg?width=930&format=pjpg&auto=webp&s=ead1e8bc4fc29db1d402a9093f944437d9d0f1f3" 
+                  alt="Stylish girl photo 2"
                 />
               </ImageListItem>
             </ImageList>
+
             <Typography variant='h6' fontWeight={'100'}>Latest Conversation</Typography>
-            <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+            <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper',marginBottom:5 }}>
               <ListItem alignItems="flex-start">
                 <ListItemAvatar>
                   <Avatar alt="Remy Sharp" src="https://images.pexels.com/photos/2218343/pexels-photo-2218343.jpeg?cs=srgb&dl=pexels-emris-2218343.jpg&fm=jpg" />

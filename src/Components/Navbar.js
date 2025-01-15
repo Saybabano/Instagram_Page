@@ -54,8 +54,8 @@ function Navbar() {
             Aisha Khan
           </Typography>
           <SpaIcon sx={{ display: { xs: 'block', sm: 'none' } }} />
-          <Search sx={{display:'flex',gap:'3px'}}>
-            <SearchIcon  sx={{color:'gray'}}/>
+          <Search sx={{display:'flex',gap:'3px',padding:'5px'}}>
+            <SearchIcon  sx={{color:'blue'}}/>
             <InputBase placeholder="Search...." />
           </Search>
           <Icons>

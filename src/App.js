@@ -20,7 +20,7 @@ function App() {
     <ThemeProvider theme={darkThem }>
       <Box bgcolor={"background.default"} color={"text.primary"}>
         <Navbar/>
-        <Stack direction="row" spacing={2} justifyContent='space-between'>
+        <Stack direction="row" spacing={2} justifyContent='space-between' marginTop={8}>
           <Sidbar setMode={setMode} mode={mode}/>
           <Feed/>
           <Rightbar/>

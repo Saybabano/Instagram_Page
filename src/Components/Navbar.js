@@ -48,7 +48,7 @@ function Navbar() {
 
   return (
     <Box>
-      <AppBar position="sticky">
+      <AppBar>
         <StyleToolbar>
           <Typography variant="h6" sx={{ display: { xs: 'none', sm: 'block' },fontWeight:'800' }}>
             Aisha Khan
